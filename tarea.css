@@ -1,0 +1,103 @@
+:root{
+	--dark: hsl(185, 75%, 39%);
+}
+body{ 
+	background: #1e90ff;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-content: center;
+text-align: center;
+box-sizing: border-box;
+background-position: top -34rem left -68%, bottom -39rem right -60%; /*pendiente este lado*/
+justify-content: center;
+padding: 15px;
+background-repeat: no-repeat;
+background-image: url('bg-pattern-top.svg'),url('bg-pattern-bottom.svg');
+font-size: 0em;
+
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.card{
+	overflow: hidden;
+     width: 16em;
+	height: 20em;
+	background: white;
+	text-align: center;
+	border-radius: 20px;
+	margin-top: 3.5cm;
+  box-shadow :  2 px  3 px  4 px;  
+
+ 
+}
+.padre{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	height: 100vh;
+	font-size: 18px;
+
+}
+.hijo1{
+width: 100%;
+
+}
+img{
+	width: 100%;
+}
+.png{
+	width: 30%;
+	height: 25%;
+	border-radius: 50%;
+	border: solid 6px white;
+	
+	position: relative;
+	bottom: 1cm;
+}
+.adr{
+	font-size: ;
+	position: relative;
+	top: -1cm;
+	font-size: 1em;
+	font-family: : Kumbh Sans 400, 700;
+}
+.djr{
+	position: relative;
+	left: 1.9cm;
+	bottom: 1.5cm;
+	font-size: 1em;
+	font-family: : Kumbh Sans;
+	color: gray;
+}
+.lon{
+	position: relative;
+	bottom: 1.3cm;
+	font-size: 1em;
+	font-family: : Kumbh Sans;
+	color: gray;
+}
+.f{
+	position: relative;
+	bottom:0.1cm ;
+	right: 2.6cm;
+	font-size: 1em;
+	font-family: : Kumbh Sans;
+}
+.l{
+	position: relative;
+	bottom: 1.2cm;
+	font-size: 1em;
+	font-family: : Kumbh Sans;
+
+}
+.p{
+	position: relative;
+	left: 3cm;
+	bottom: 2.3cm;
+	font-size: 1em;
+	font-family: : Kumbh Sans;
+}
